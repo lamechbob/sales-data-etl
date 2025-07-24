@@ -1,0 +1,11 @@
+sale_id,product,quantity,price_per_unit,sale_date
+1,Widget A,3,19.99,2025-07-01
+2,Widget B,2,24.50,2025-07-01
+3,Widget C,1,99.99,2025-07-02
+4,Widget A,1,19.99,2025-07-03
+5,Widget B,4,24.50,2025-07-03
+6,Widget A,2,19.99,2025-07-04
+7,Widget D,5,10.00,2025-07-04
+8,Widget C,2,99.99,2025-07-05
+9,Widget B,1,24.50,2025-07-06
+10,Widget D,3,10.00,2025-07-07
