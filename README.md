@@ -1,6 +1,6 @@
-# 🧾 sales-etl-lite
+# 🧾 sales-data-etl
 
-**`sales-etl-lite`** is a lightweight Python project that reads sales data from a CSV file, loads it into a SQLite database, and runs basic analytics like total sales and top-selling products. It’s a simple ETL pipeline that demonstrates data ingestion, table creation, and SQL querying with Python.
+**`sales-data-etl`** is a lightweight Python project that reads sales data from a CSV file, loads it into a SQLite database, and runs basic analytics like total sales and top-selling products. It’s a simple ETL pipeline that demonstrates data ingestion, table creation, and SQL querying with Python.
 
 ---
 
@@ -30,5 +30,5 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/sales-etl-lite.git
-cd sales-etl-lite
+git clone https://github.com/your-username/sales-data-etl.git
+cd sales-data-etl
