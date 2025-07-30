@@ -14,6 +14,8 @@
   - Calculate total sales per transaction
   - Identify the highest single sale
   - Display top 3 transactions by quantity sold
+- Modular project structure (`main.py` + `etl/transform.py`)
+- Git-tracked with clean `.gitignore` and `requirements.txt`
 
 ---
 
