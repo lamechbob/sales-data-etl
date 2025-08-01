@@ -33,3 +33,10 @@ trans.updateTable(database_name,sales_data_df)
 # ------------------------
 
 trans.runCalculations(database_name)
+
+# ------------------------
+# Week 3 Code Challenge
+# ------------------------
+
+print('\n-- Weekly Code Challenege - Week 3')
+trans.codeChallengeWeek3('data/test_dirty_sales.csv')

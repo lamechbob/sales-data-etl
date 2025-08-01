@@ -95,3 +95,32 @@ def runCalculations(database_name):
     print(top_3_by_quantity)
 
     conn.close()
+
+def codeChallengeWeek3(dirty_sales_file_path):
+
+    '''
+    Write a function that:
+
+    - Accepts a file path and returns a cleaned DataFrame:
+        - Drops null values
+        - Lowercases column names
+    - Saves the result to: `outputs/cleaned_sales.csv`
+    '''
+
+    # Get Data
+    dirty_sales_df = pd.read_csv(dirty_sales_file_path)
+
+    # Drop rows with Null values
+    dirty_sales_df = dirty_sales_df.dropna()
+
+    print('\nClean Dirty Sales Data')
+    print(dirty_sales_df)
+
+    # Convert all column names to lowercase
+    dirty_sales_df.columns = dirty_sales_df.columns.str.lower()
+
+    print('\nLower Case Column Names')
+    print(dirty_sales_df)
+
+    # Export Data to File
+    dirty_sales_df.to_csv('outputs/cleaned_sales.csv',index=False)
