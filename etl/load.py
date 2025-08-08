@@ -1,5 +1,4 @@
 # etl/load.py
-
 import boto3
 
 def loadToS3(file_path_to_upload, bucket_to_upload_to, file_name_to_upload):
